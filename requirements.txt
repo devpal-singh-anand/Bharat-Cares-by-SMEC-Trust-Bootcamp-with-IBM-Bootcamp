@@ -1,0 +1,17 @@
+# StreamSafe ADS Tool — Requirements
+# ------------------------------------
+# No third-party packages required.
+# All dependencies are part of the Python standard library.
+#
+# Runtime requirements:
+#   Python  >= 3.8
+#   OS      : Windows 10 / 11 only (NTFS volume required)
+#
+# Standard library modules used:
+#   tkinter   — GUI framework
+#   ctypes    — Windows kernel32.dll API bindings
+#   hashlib   — SHA-256 hashing
+#   threading — Non-blocking background operations
+#   os        — Path checks and directory detection
+#   sys       — Platform detection
+#   datetime  — Console log timestamps
